@@ -172,12 +172,17 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 7px;
-  width: fit-content;
+  /* align-items: center; */
 }
 
 .star {
   display: block;
-  margin-left: 95%;
+  position: relative;
+  left: 90%;
+}
+
+.megamillions {
+  align-items: center;
 }
 
 .card-info {
@@ -227,6 +232,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 12px;
+  text-align: center;
 }
 
 .winner-title {
@@ -272,12 +278,133 @@
   text-align: center;
   padding: 12px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
 }
 
 .sinfo {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.latest {
+  text-align: center;
+}
+
+.read {
+  color: #007aff;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.now button {
+  background-color: #f7d300;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 70%;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.total-prize {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #e0e0e0;
+  margin: 2%;
+  padding: 5px;
+}
+
+.total-info {
+  font-size: 12px;
+}
+
+.total-cash {
+  color: #13902a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.grid2 {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bage {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2%;
+  gap: 5%;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.bage-amount {
+  color: #5f5f5f;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.cbage {
+  display: flex;
+  gap: 3px;
+}
+
+.fotter {
+  margin: 2%;
+}
+
+.chat {
+  display: flex;
+  gap: 5%;
+  margin: 2%;
+  background-image: url('../Assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.live {
+  font-family: 'Roboto', sans-serif;
+}
+
+.live-chat {
+  font-size: 14px;
+}
+
+.customer {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.contact {
+  margin: 2%;
+}
+
+.useful {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 21px;
+}
+
+.links {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link1 ul li,
+.link2 ul li {
+  list-style-type: none;
+  padding: 5px;
 }
